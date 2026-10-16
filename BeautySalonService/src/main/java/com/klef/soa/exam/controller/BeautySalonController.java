@@ -20,7 +20,7 @@ public class BeautySalonController {
 
     @GetMapping("/")
     public String demo() {
-        return "Spring Boot Beauty Salon Project";
+        return "Beauty Salon Project";
     }
 
     @PostMapping("/Add")
